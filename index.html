@@ -7,15 +7,30 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body ng-controller="mainCtrl">
-
-	<div>
-		<h1>My name is {{name}}</h1>
-		<h2>My expression {{7 + 8}}</h2>
-		<h2>My UPPERCASE filter {{mijo | uppercase}}</h2>
-		<h2>My factory returning my dream car: {{car}}</h2>
-	</div>
+	<nav id="nav">	
+		<ul>		
+			<li>
+				<a href="/"><span>Home</span></a>
+			</li>
+			<li>
+				<a href="http://www.joelchacon.com" target="_blank"><span>Portfolio</span></a>
+			</li>
+			<li>
+				<a href="javascript:void(0);"><span>About</span></a>
+			</li>
+			<li>
+				<a href="javascript:void(0);"><span>Blog</span></a>
+			</li>
+			<li>
+				<a href="javascript:void(0);"><span>Contact</span></a>
+			</li>
+		</ul>
+	</nav>
+	<ui-view></ui-view>
+	
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 	<script type="text/javascript" src="mainCtrl.js"></script>
 	<script type="text/javascript" src="factory.js"></script>
