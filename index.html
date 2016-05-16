@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>
+		#2 Practice 
+	</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body ng-controller="mainCtrl">
+
+	<div>
+		<h1>My name is {{name}}</h1>
+		<h2>My expression {{7 + 8}}</h2>
+		<h2>My UPPERCASE filter {{mijo | uppercase}}</h2>
+		<h2>My factory returning my dream car: {{car}}</h2>
+	</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="mainCtrl.js"></script>
+	<script type="text/javascript" src="factory.js"></script>
+</body>
+</html>
