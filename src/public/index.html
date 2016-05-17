@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>
+		#2 Practice 
+	</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body ng-controller="mainCtrl">
+	<nav id="nav">	
+		<ul>		
+			<li>
+				<a ui-sref="home"><span>Home</span></a>
+			</li>
+			<li>
+				<a href="http://www.joelchacon.com" target="_blank"><span>Portfolio</span></a>
+			</li>
+			<li>
+				<a ui-sref="ng-click"><span>ng-click</span></a>
+			</li>
+			<li>
+				<a ui-sref="practice"><span>Practice</span></a>
+			</li>
+			<li>
+				<a ui-sref="contact"><span>Contact</span></a>
+			</li>
+		</ul>
+	</nav>
+	<ui-view></ui-view>
+	
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="mainCtrl.js"></script>
+	<script type="text/javascript" src="factory.js"></script>
+</body>
+</html>

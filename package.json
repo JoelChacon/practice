@@ -1,0 +1,27 @@
+{
+  "name": "2practice",
+  "version": "1.0.0",
+  "description": "Anjel",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelChacon/practice.git"
+  },
+  "author": "Joel Chacon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoelChacon/practice/issues"
+  },
+  "homepage": "https://github.com/JoelChacon/practice#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.17",
+    "morgan": "^1.7.0"
+  }
+}
