@@ -13,4 +13,19 @@ app.config(function($stateProvider, $urlRouterProvider) {
 			templateUrl: "html/mijo.html",
 			controller: 'mainCtrl'
 		})
+		.state('practice', {
+			url: '/practice',
+			templateUrl: "html/practice.html",
+			controller: 'mainCtrl'
+		})
+		.state('ng-click', {
+			url: '/ngClick',
+			templateUrl: 'html/ngClick.html',
+			controller: 'mainCtrl'
+		})
+		.state('contact', {
+			url: '/contact',
+			templateUrl: 'html/contact.html',
+			controller: 'mainCtrl'
+		})
 })

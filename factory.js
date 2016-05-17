@@ -11,7 +11,7 @@ angular.module('app').factory('myFactory', function() {
 			smells: "Smell: Delicious",
 			social: "Social: Gets along with everybody",
 			favFood: "Favorite Food: Peanut Butter & Jelly",
-			favToy: "Favorite Toy: Everthing"
+			favToy: "Favorite Toy: Everything"
 		};
 	};
 

@@ -110,3 +110,10 @@ body {
 .mijoDiv {
     width: 500px;
 }
+.content {
+  position: absolute;
+  left: 50%;
+  top: 450%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
