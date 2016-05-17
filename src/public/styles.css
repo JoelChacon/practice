@@ -114,10 +114,39 @@ body {
 .content {
   position: absolute;
   left: 50%;
-  top: 450%;
+  top: 250%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.content2 {
+  position: absolute;
+  left: 50%;
+  top: 380%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 .fer {
     width:540px;
+}
+.content1 {
+  position: absolute;
+  left: 50%;
+  top: 450%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.fontColor {
+    color:black;
+}
+.editDiv {
+    position: absolute;
+    top: 360%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.editDiv1 {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

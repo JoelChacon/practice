@@ -10,12 +10,12 @@ angular.module('app').controller('mainCtrl', function($scope, myFactory){
 	$scope.visible = true;
 	$scope.showAndHide = function() {
 		//If DIV is visible it will be hidden and vice versa.
-		$scope.visible = $scope.visible ? false : true;
+		return $scope.visible = $scope.visible ? false : true;
 	};
 	//practice for the $q library
 	function add(x, y) {
 		return(x + y);
 	};
-	$scope.result = add(5, 2 );
+	$scope.result = add(5, 8);
 
 });
