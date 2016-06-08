@@ -1,20 +1,20 @@
 <body>
+	
 	<div>
 		<h2 class="content" style="background-color: blue">
 			Result: {{result}}
 		</h2>
 		<h2 class="content4" style="background-color: blue">
-		My Result: {{anjel}}
+			My Result: {{anjel}}
 		</h2>
 	</div>
 	<div class="editDiv">
 		<h2>
-			<input type="text" ng-model="edit">
-				<font color="black"></font>
-			</input>
-			<div class="editDiv1">
-				<p class="fontColor">{{edit}}</p>
-			</div>
+			<input type="text" ng-model="edit" ng-hide="edit.length > 33" placeholder="PageTitle: ?" />
 		</h2>	
 	</div>
+	<div class="editDiv1">
+		<h1><p class="fontColor">{{edit}}</p></h1>
+	</div>
+
 </body>
