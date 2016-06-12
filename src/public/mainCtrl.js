@@ -1,4 +1,4 @@
-'use strict';
+
 angular.module('app').controller('mainCtrl', function($scope, myFactory){
 
 	$scope.name = "Joel Chacon";
@@ -9,8 +9,9 @@ angular.module('app').controller('mainCtrl', function($scope, myFactory){
 	
 	//ng-click
 	 //This will hide the DIV by default.
+	$scope.visible = true;
 	$scope.showAndHide = function() {
-		$scope.visible = true;
+		
 		//If DIV is visible it will be hidden and vice versa.
 		 $scope.visible = $scope.visible ? false : true;
 	}
