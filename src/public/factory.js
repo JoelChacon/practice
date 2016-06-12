@@ -12,7 +12,7 @@ angular.module('app').factory('myFactory', function() {
 				social: "Social: Gets along with everybody",
 				favFood: "Favorite Food: Peanut Butter & Jelly",
 				favToy: "Favorite Toy: Everything",
-				speech: 'googoos & gagas that are the \n most beautiful sound I\'ve ever heard'
+				speech: 'googoos & gagas that are the most beautiful sound I have ever heard'
 			};
 		},
 		 
