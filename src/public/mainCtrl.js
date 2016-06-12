@@ -16,12 +16,12 @@ angular.module('app').controller('mainCtrl', function($scope, myFactory){
 		 $scope.visible = $scope.visible ? false : true;
 	}
 	//practice for the $q library
-	function add(x, y, callback) { // step 1. the function is created by me
-		callback(x + y);
-	}
-	add(34, 3234, function(joel) {
-		$scope.result = joel;
-	})
+	// function add(x, y, callback) { // step 1. the function is created by me
+	// 	callback(x + y);
+	// }
+	// add(34, 3234, function(joel) {
+	// 	$scope.result = joel;
+	// })
 
 	function subtract(e, i, callback) {
 		callback(e * i);
