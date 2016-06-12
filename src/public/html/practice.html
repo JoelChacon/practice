@@ -10,11 +10,15 @@
 	</div>
 	<div class="editDiv">
 		<h2>
-			<input type="text" ng-model="edit" ng-hide="edit.length > 33" placeholder="PageTitle: ?" />
+			<input type="text" ng-model="edit" ng-hide="edit.length > 33" placeholder="Enter Website" />
 		</h2>	
 	</div>
 	<div class="editDiv1">
-		<h1><p class="fontColor">{{edit}}</p></h1>
+		<h1><p class="fontColor"><a href="http://www.{{edit}}" target="_blank">{{edit}}</a></p></h1>
 	</div>
-
+	<!-- <div>
+		<p>{{preference}}</p>
+		<p>{{hi}}</p>
+		<p>{{bye}}</p>
+	</div> -->
 </body>

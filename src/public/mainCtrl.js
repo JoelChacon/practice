@@ -27,9 +27,12 @@ angular.module('app').controller('mainCtrl', function($scope, myFactory){
 	}
 	subtract(23, 98, function(theResult) {
 		$scope.anjel = theResult;
-	});
+	})
+	$scope.preference = myFactory.getSexualPreference();
+    $scope.hi = myFactory.sayHello("World");
+    $scope.bye = myFactory.sayGoodbye("World");
 });
  // encaptialation
  // functional programming
  // object oriented programming
-	visi
+	
