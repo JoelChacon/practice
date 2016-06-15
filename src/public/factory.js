@@ -15,6 +15,11 @@ angular.module('app').factory('myFactory', function() {
 				speech: 'googoos & gagas that are the most beautiful sound I have ever heard'
 			};
 		},
+		getFighter: function() {
+			return {
+				favFighter: "Anderson Silva"
+			}
+		},
 		 
         age: 20 ,
   		getSexualPreference: function() {

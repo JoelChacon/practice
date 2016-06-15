@@ -6,7 +6,7 @@ angular.module('app').controller('mainCtrl', function($scope, myFactory){
 	$scope.car = myFactory.getCar();
 	//mijo's info
 	$scope.mijosInfo = myFactory.getMijosInfo();
-	
+	$scope.fighter = myFactory.getFighter();
 	//ng-click
 	 //This will hide the DIV by default.
 	$scope.visible = true;
@@ -32,6 +32,7 @@ angular.module('app').controller('mainCtrl', function($scope, myFactory){
 	$scope.preference = myFactory.getSexualPreference();
     $scope.hi = myFactory.sayHello("World");
     $scope.bye = myFactory.sayGoodbye("World");
+    
 });
  // encaptialation
  // functional programming
