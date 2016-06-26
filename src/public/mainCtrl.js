@@ -25,7 +25,7 @@ angular.module('app').controller('mainCtrl', function($scope, $timeout, myFactor
 	}, 11000)
 	$timeout(function() {
 	 	$scope.name = "Joel Chacon"
-	}, 12000)
+	}, 13000)
 	$scope.mijo = " Joel Anjel Chacon";
 	$scope.car = myFactory.getCar();
 	//mijo's info
