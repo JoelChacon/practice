@@ -4,28 +4,28 @@ angular.module('app').controller('mainCtrl', function($scope, $timeout, myFactor
 	$scope.name = "ummmm";
 	$timeout(function() {
     	$scope.name = "hold on I'm thinking";
-    }, 1500);
+    }, 4500);
 	$timeout(function() {
     	$scope.name = "hold on I'm thinking.";
-    }, 2000);
-	$timeout(function() {
-    	$scope.name = "hold on I'm thinking..";
-    }, 3000);
-	$timeout(function() {
-    	$scope.name = "hold on I'm thinking...";
-    }, 4000); 
-	$timeout(function() {
-    	$scope.name = "hold on I'm thinking....";
     }, 5000);
 	$timeout(function() {
-    	$scope.name = "hold on I'm thinking....;)";
+    	$scope.name = "hold on I'm thinking..";
     }, 6000);
 	$timeout(function() {
-	 	$scope.name = "Oh Yeah It's"
-	}, 7000)
+    	$scope.name = "hold on I'm thinking...";
+    }, 7000); 
+	$timeout(function() {
+    	$scope.name = "hold on I'm thinking....";
+    }, 8000);
+	$timeout(function() {
+    	$scope.name = "hold on I'm thinking.....";
+    }, 9000);
+	$timeout(function() {
+	 	$scope.name = "Oh Yeah It's ;)"
+	}, 10000)
 	$timeout(function() {
 	 	$scope.name = "Joel Chacon"
-	}, 9000)
+	}, 11000)
 	$scope.mijo = " Joel Anjel Chacon";
 	$scope.car = myFactory.getCar();
 	//mijo's info

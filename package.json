@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/JoelChacon/practice/issues"
   },
-  "homepage": "https://github.com/JoelChacon/practice#readme",
+  "homepage": "https://joels-angular.herokuapp.com",
   "dependencies": {
     "body-parser": "^1.15.1",
     "cors": "^2.7.1",
