@@ -1,4 +1,4 @@
-angular.module('app').factory('myFactory', function() {
+angular.module('app').factory('myFactory', function($http) {
 	
 	return {
 		dreamCar:'Le Ferrari',
@@ -22,15 +22,19 @@ angular.module('app').factory('myFactory', function() {
 		},
 		 
         age: 20 ,
-  		getSexualPreference: function() {
-        	return this.sexualPreference;
-        }, 
         sayHello: function(text){
             return "Factory says \"Hello " + text + "\"";
         },
         sayGoodbye: function(text){
             return "Factory says \"Goodbye " + text + "\"";
         }
+        // $http.get('/api')
+        // 	 .success(function (result) {
+        // 	 	$scope.rules = result;
+        // 	 })
+        // 	 .error(function (data, status) {
+        // 	 	console.log(data);
+        // 	 });
 	};
 
 })

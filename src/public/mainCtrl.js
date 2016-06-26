@@ -1,8 +1,32 @@
 
-angular.module('app').controller('mainCtrl', function($scope, myFactory){
+angular.module('app').controller('mainCtrl', function($scope, $timeout, myFactory){
 
-	$scope.name = "Joel Chacon";
-	$scope.mijo = "Joel Anjel Chacon";
+	$scope.name = "ummmm";
+	$timeout(function() {
+    	$scope.name = "hold on I'm thinking";
+    }, 1500);
+	$timeout(function() {
+    	$scope.name = "hold on I'm thinking.";
+    }, 2000);
+	$timeout(function() {
+    	$scope.name = "hold on I'm thinking..";
+    }, 3000);
+	$timeout(function() {
+    	$scope.name = "hold on I'm thinking...";
+    }, 4000); 
+	$timeout(function() {
+    	$scope.name = "hold on I'm thinking....";
+    }, 5000);
+	$timeout(function() {
+    	$scope.name = "hold on I'm thinking....;)";
+    }, 6000);
+	$timeout(function() {
+	 	$scope.name = "Oh Yeah It's"
+	}, 7000)
+	$timeout(function() {
+	 	$scope.name = "Joel Chacon"
+	}, 9000)
+	$scope.mijo = " Joel Anjel Chacon";
 	$scope.car = myFactory.getCar();
 	//mijo's info
 	$scope.mijosInfo = myFactory.getMijosInfo();
@@ -29,12 +53,12 @@ angular.module('app').controller('mainCtrl', function($scope, myFactory){
 	subtract(23, 98, function(theResult) {
 		$scope.anjel = theResult;
 	})
-	$scope.preference = myFactory.getSexualPreference();
     $scope.hi = myFactory.sayHello("World");
     $scope.bye = myFactory.sayGoodbye("World");
+
     
 });
- // encaptialation
+ // encapsulation
  // functional programming
  // object oriented programming
 	
