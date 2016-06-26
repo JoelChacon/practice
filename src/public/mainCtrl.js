@@ -1,7 +1,22 @@
 
 angular.module('app').controller('mainCtrl', function($scope, $timeout, myFactory){
 
-	$scope.name = "ummmm";
+	$scope.name = "um";
+	$timeout(function() {
+    	$scope.name = "umm";
+    }, 1000);
+    $timeout(function() {
+    	$scope.name = "ummm";
+    }, 2000);
+    $timeout(function() {
+    	$scope.name = "ummmm";
+    }, 3000);
+    $timeout(function() {
+    	$scope.name = "ummmmm";
+    }, 4000);
+    $timeout(function() {
+    	$scope.name = "ummmmmm";
+    }, 5000);    
 	$timeout(function() {
     	$scope.name = "hold on I'm thinking";
     }, 6000);
